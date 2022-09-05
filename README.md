@@ -71,5 +71,15 @@ This endpoint returns back the corresponding fullUrl.
 curl -X GET   http://localhost:8080/api/v1/url/abcdef
 ```
 
+Response:
+
+```json
+{
+  "id": 1,
+  "originalUrl": "abcd@example.com",
+  "urlKey": "973347"
+}
+```
+
 # Contributors
 email: muniraj.tomar91@gmail.com
